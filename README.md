@@ -1,16 +1,18 @@
-### Hi there 👋
+# I'm Amr Tarek Elbana
+* 
+I am a full-stack web developer, with 2 years of experience with ruby-on-rails, and React/Redux experience. Currently looking for job/learning opportunity
+*
+## Front End Tools 
+1-HTML
+2-JAVASCRIPT
+3-CSS
+4-Bootstrap
+5-Angular.js
+6-jQuery
 
-<!--
-**amrtarekelbana/amrtarekelbana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Back End Tools
+1-PHP
+2-Python
+3-Laravel
+4-Django
+5-MongoDB
