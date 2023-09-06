@@ -1,0 +1,121 @@
+/* ---------- reset ----------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----------- general--------- */
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    background-color: var(--Pale-blue);
+    min-height: 100vh;
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 450;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+}
+.content{
+    width: 450px;
+
+}
+main section{
+    padding: 10px ;
+
+}
+main .content h1{
+    color: var(--Dark-blue);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+main .content p {
+    color: var(--Desaturated-blue);
+    padding-left: 20px ;
+    font-size: 16px;
+}
+main .details {
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+main .details .left-side{
+    display: flex;
+    padding: 20px;
+}
+main .details .left-side div{
+    margin-left: 20px;
+}
+main .details .left-side h5{
+    font-weight: 700px;
+}
+main .details .left-side p{
+    font-weight: 100;
+}
+main .details a{
+    font-weight: 900;
+    color: var(--Dark-blue);
+
+
+}
+ main .change :hover {
+    text-decoration: none;
+
+ }
+button{
+    border: none;
+    cursor: pointer;
+}
+main .pay{
+    background-color: var(--Bright-blue);
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+}
+main .pay{
+    /* box-shadow: 10px 10px 2px 5 hsl(245, 75%, 52%); */
+}
+main .cancel{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 90%;
+
+}
+@media only screen and (max-width :375px){
+    main{
+        max-width: 85%;
+    }
+    .content{
+        max-width: 85%;
+    }
+}
